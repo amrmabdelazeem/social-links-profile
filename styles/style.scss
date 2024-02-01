@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'utils';
+
+
+body{
+    background-color:$bg-main-color;
+    color: $secondary_color;
+    font-family: $body-font;
+}
