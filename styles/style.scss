@@ -11,6 +11,7 @@ body {
   height: 100vh;
   max-height: 100%;
   overflow: hidden;
+  animation: animate 1s ease-in-out normal;
 }
 
 .container {
@@ -59,25 +60,58 @@ body {
       color: $secondary_color;
       background-color: $links-bg-color;
       border-radius: 5px;
-      padding: .8rem;
+      padding: 0.8rem;
       font-size: $font-body-size;
       font-weight: 600;
 
-      &:hover{
+      &:hover {
         background-color: $primary_color;
         color: $bg-container;
       }
     }
+    .github{
+      animation: animateLink .3s ease-in;
+    }
+    .frontend{
+      animation: animateLink .5s ease-in;
+    }
+    .linkedin{
+      animation: animateLink .7s ease-in;
+    }
+    .twitter{
+      animation: animateLink 1s ease-in;
+    }
+    .instagram{
+      animation: animateLink 1.2s ease-in;
+    }
   }
 }
 
-@media (min-width:1280px){
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animateLink{
+  0%{
+    opacity: 0;
+    width: 0;
+  }
+  100%{
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
   .container {
     width: 370px;
     padding: 2rem 0;
 
-
-    .links{
+    .links {
       width: 80%;
     }
   }
