@@ -1,8 +1,8 @@
 {
   "name": "social-links-profile",
-  "source": "/index.html",
+  "source": "index.html",
   "scripts": {
-    "build": "parcel build"
+    "build": "parcel build index.html --public-url ./"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.11.0",
