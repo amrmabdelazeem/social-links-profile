@@ -66,4 +66,14 @@ body {
   color: #1f1f1f;
 }
 
+@media (min-width: 1280px) {
+  .container {
+    width: 370px;
+    padding: 2rem 0;
+  }
+  .container .links {
+    width: 80%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

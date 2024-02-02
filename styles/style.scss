@@ -70,3 +70,15 @@ body {
     }
   }
 }
+
+@media (min-width:1280px){
+  .container {
+    width: 370px;
+    padding: 2rem 0;
+
+
+    .links{
+      width: 80%;
+    }
+  }
+}
