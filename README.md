@@ -23,12 +23,17 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+- Mobile:<br/>
 ![Mobile View](assets/screenshots/Mobile.png)
+<hr/>
 
+- Destkop:
 ![Desktop View](assets/screenshots/Desktop.png)
+<hr/>
 
+- Hover stats:
 ![Hover](assets/screenshots/hover-states.png)
-
+<hr/>
 
 
 ## My process
