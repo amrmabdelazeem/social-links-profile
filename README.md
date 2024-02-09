@@ -1,4 +1,4 @@
-# Social links profile solution
+# Social links profile
 
 This is a solution to the [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
 
